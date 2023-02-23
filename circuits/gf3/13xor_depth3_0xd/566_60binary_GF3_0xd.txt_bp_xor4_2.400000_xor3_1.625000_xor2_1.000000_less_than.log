@@ -1,0 +1,104 @@
+Trial No: 126
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 0, XOR3: 2, XOR4: 11
+SLP Heuristic XorCost ASIC1: 61.5
+SLP Heuristic XorCost ASIC2: 67.93
+SLP Heuristic XorCost ASIC3: 77.15
+SLP Heuristic XorCost ASIC4: 75.21
+Timestamp: 06-02-2023 14-40-33
+y03 = x00 + x05 + x07 + x08 (1) 
+y06 = x02 + x06 + x07 + x08 (1) 
+y11 = x04 + x07 + x10 + x11 (1) 
+t03 = x03 + x05 + x06 + x09 (1) 
+y00 = x01 + y06 + y11 + t03 (2) 
+y02 = x01 + x07 + x08 + t03 (2) 
+y04 = x04 + x09 + y11 + t03 (2) 
+y05 = x07 + y03 + y06 + t03 (2) 
+y01 = x03 + y02 + y04 + y05 (3) 
+y07 = x02 + x10 + t03 (2) 
+y08 = x01 + x09 + x11 + y00 (3) 
+y09 = x01 + y11 + y07 (3) 
+y10 = x00 + x08 + y02 + y04 (3) 
+Row: 
+10 9 5 1 0 3 8 11 7 2 6 4 
+Col: 
+9 6 3 7 10 5 11 8 1 2 0 4 
+
+Trial No: 231
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 0, XOR3: 2, XOR4: 11
+SLP Heuristic XorCost ASIC1: 61.5
+SLP Heuristic XorCost ASIC2: 67.93
+SLP Heuristic XorCost ASIC3: 77.15
+SLP Heuristic XorCost ASIC4: 75.21
+Timestamp: 06-02-2023 14-40-33
+y03 = x00 + x05 + x07 + x08 (1) 
+y06 = x02 + x06 + x07 + x08 (1) 
+y11 = x04 + x07 + x10 + x11 (1) 
+t03 = x03 + x05 + x06 + x09 (1) 
+y00 = x01 + y06 + y11 + t03 (2) 
+y02 = x01 + x07 + x08 + t03 (2) 
+y04 = x04 + x09 + y11 + t03 (2) 
+y05 = x07 + y03 + y06 + t03 (2) 
+y01 = x03 + y02 + y04 + y05 (3) 
+y07 = x02 + x10 + t03 (2) 
+y08 = x01 + x09 + x11 + y00 (3) 
+y09 = x01 + y11 + y07 (3) 
+y10 = x00 + x08 + y02 + y04 (3) 
+Row: 
+10 9 5 1 0 3 8 11 7 2 6 4 
+Col: 
+9 6 3 7 10 5 11 8 1 2 0 4 
+
+Trial No: 336
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 0, XOR3: 2, XOR4: 11
+SLP Heuristic XorCost ASIC1: 61.5
+SLP Heuristic XorCost ASIC2: 67.93
+SLP Heuristic XorCost ASIC3: 77.15
+SLP Heuristic XorCost ASIC4: 75.21
+Timestamp: 06-02-2023 14-40-33
+y03 = x00 + x05 + x07 + x08 (1) 
+y06 = x02 + x06 + x07 + x08 (1) 
+y11 = x04 + x07 + x10 + x11 (1) 
+t03 = x03 + x05 + x06 + x09 (1) 
+y00 = x01 + y06 + y11 + t03 (2) 
+y02 = x01 + x07 + x08 + t03 (2) 
+y04 = x04 + x09 + y11 + t03 (2) 
+y05 = x07 + y03 + y06 + t03 (2) 
+y01 = x03 + y02 + y04 + y05 (3) 
+y07 = x02 + x10 + t03 (2) 
+y08 = x01 + x09 + x11 + y00 (3) 
+y09 = x01 + y11 + y07 (3) 
+y10 = x00 + x08 + y02 + y04 (3) 
+Row: 
+10 9 5 1 0 3 8 11 7 2 6 4 
+Col: 
+9 6 3 7 10 5 11 8 1 2 0 4 
+
+Trial No: 441
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 0, XOR3: 2, XOR4: 11
+SLP Heuristic XorCost ASIC1: 61.5
+SLP Heuristic XorCost ASIC2: 67.93
+SLP Heuristic XorCost ASIC3: 77.15
+SLP Heuristic XorCost ASIC4: 75.21
+Timestamp: 06-02-2023 14-40-33
+y03 = x00 + x05 + x07 + x08 (1) 
+y06 = x02 + x06 + x07 + x08 (1) 
+y11 = x04 + x07 + x10 + x11 (1) 
+t03 = x03 + x05 + x06 + x09 (1) 
+y00 = x01 + y06 + y11 + t03 (2) 
+y02 = x01 + x07 + x08 + t03 (2) 
+y04 = x04 + x09 + y11 + t03 (2) 
+y05 = x07 + y03 + y06 + t03 (2) 
+y01 = x03 + y02 + y04 + y05 (3) 
+y07 = x02 + x10 + t03 (2) 
+y08 = x01 + x09 + x11 + y00 (3) 
+y09 = x01 + y11 + y07 (3) 
+y10 = x00 + x08 + y02 + y04 (3) 
+Row: 
+10 9 5 1 0 3 8 11 7 2 6 4 
+Col: 
+9 6 3 7 10 5 11 8 1 2 0 4 
+

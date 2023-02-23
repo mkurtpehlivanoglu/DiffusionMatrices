@@ -1,0 +1,78 @@
+Trial No: 19
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+Timestamp: 06-02-2023 13-13-06
+y03 = x02 + x05 + x06 + x07 (1) 
+y05 = x00 + x03 + x06 + x08 (1) 
+y06 = x01 + x02 + x05 + x10 (1) 
+t03 = x02 + x08 + x09 + x11 (1) 
+y00 = x01 + x06 + y06 + t03 (2) 
+y01 = x00 + x03 + x04 + t03 (2) 
+y02 = x01 + y03 + y05 + t03 (2) 
+y04 = x03 + y02 (3) 
+y07 = x05 + x09 + y00 + y01 (3) 
+y08 = x10 + y06 + t03 (2) 
+y09 = x05 + y01 (3) 
+y10 = x01 + y01 + y02 + y08 (3) 
+y11 = x04 + y05 + y00 + y08 (3) 
+Row: 
+4 5 3 9 1 6 8 2 11 0 7 10 
+Col: 
+10 3 9 6 5 8 4 1 0 7 2 11 
+
+Trial No: 151
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+Timestamp: 06-02-2023 13-13-06
+y03 = x02 + x05 + x06 + x07 (1) 
+y05 = x00 + x03 + x06 + x08 (1) 
+y06 = x01 + x02 + x05 + x10 (1) 
+t03 = x02 + x08 + x09 + x11 (1) 
+y00 = x01 + x06 + y06 + t03 (2) 
+y01 = x00 + x03 + x04 + t03 (2) 
+y02 = x01 + y03 + y05 + t03 (2) 
+y04 = x03 + y02 (3) 
+y07 = x05 + x09 + y00 + y01 (3) 
+y08 = x10 + y06 + t03 (2) 
+y09 = x05 + y01 (3) 
+y10 = x01 + y01 + y02 + y08 (3) 
+y11 = x04 + y05 + y00 + y08 (3) 
+Row: 
+4 5 3 9 1 6 8 2 11 0 7 10 
+Col: 
+10 3 9 6 5 8 4 1 0 7 2 11 
+
+Trial No: 283
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+Timestamp: 06-02-2023 13-13-06
+y03 = x02 + x05 + x06 + x07 (1) 
+y05 = x00 + x03 + x06 + x08 (1) 
+y06 = x01 + x02 + x05 + x10 (1) 
+t03 = x02 + x08 + x09 + x11 (1) 
+y00 = x01 + x06 + y06 + t03 (2) 
+y01 = x00 + x03 + x04 + t03 (2) 
+y02 = x01 + y03 + y05 + t03 (2) 
+y04 = x03 + y02 (3) 
+y07 = x05 + x09 + y00 + y01 (3) 
+y08 = x10 + y06 + t03 (2) 
+y09 = x05 + y01 (3) 
+y10 = x01 + y01 + y02 + y08 (3) 
+y11 = x04 + y05 + y00 + y08 (3) 
+Row: 
+4 5 3 9 1 6 8 2 11 0 7 10 
+Col: 
+10 3 9 6 5 8 4 1 0 7 2 11 
+
