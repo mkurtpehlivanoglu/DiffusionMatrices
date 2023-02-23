@@ -1,0 +1,78 @@
+12 12
+1 0 0 0 0 1 1 1 1 1 1 1
+0 1 0 1 0 0 0 1 1 0 1 1
+0 0 1 0 1 1 1 1 0 1 1 0
+0 1 0 1 0 0 1 1 1 0 1 1
+1 0 1 0 1 0 0 1 1 0 0 1
+1 0 0 0 0 1 1 1 0 1 1 1
+1 0 0 0 1 0 1 0 0 0 1 0
+0 1 0 1 0 1 0 1 0 1 0 1
+0 0 1 1 0 0 0 0 1 1 0 0
+0 1 0 0 1 0 0 0 1 1 0 0
+1 0 1 1 0 1 1 0 0 0 1 0
+1 0 0 1 0 0 0 1 1 0 0 1
+
+***********
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y09 = x09 + x08 + x04 + x01
+y06 = x10 + x06 + x04 + x00
+y08 = x03 + x09 + x08 + x02
+t03 = x09 + x00 + x07 + x11
+y04 = x03 + x04 + y08 + t03
+y05 = x10 + x06 + x05 + t03
+y03 = x03 + y09 + y06 + t03
+y01 = x06 + y03
+y02 = x08 + x07 + y04 + y05
+y11 = x02 + y08 + t03
+y00 = x08 + y05
+y07 = x03 + y05 + y03 + y11
+y10 = x05 + y06 + y04 + y11
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y09 = x09 + x08 + x04 + x01
+y06 = x10 + x06 + x04 + x00
+y08 = x03 + x09 + x08 + x02
+t03 = x09 + x00 + x07 + x11
+y04 = x03 + x04 + y08 + t03
+y05 = x10 + x06 + x05 + t03
+y03 = x03 + y09 + y06 + t03
+y01 = x06 + y03
+y02 = x08 + x07 + y04 + y05
+y11 = x02 + y08 + t03
+y00 = x08 + y05
+y07 = x03 + y05 + y03 + y11
+y10 = x05 + y06 + y04 + y11
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y09 = x09 + x08 + x04 + x01
+y06 = x10 + x06 + x04 + x00
+y08 = x03 + x09 + x08 + x02
+t03 = x09 + x00 + x07 + x11
+y04 = x03 + x04 + y08 + t03
+y05 = x10 + x06 + x05 + t03
+y03 = x03 + y09 + y06 + t03
+y01 = x06 + y03
+y02 = x08 + x07 + y04 + y05
+y11 = x02 + y08 + t03
+y00 = x08 + y05
+y07 = x03 + y05 + y03 + y11
+y10 = x05 + y06 + y04 + y11
+
+----------------

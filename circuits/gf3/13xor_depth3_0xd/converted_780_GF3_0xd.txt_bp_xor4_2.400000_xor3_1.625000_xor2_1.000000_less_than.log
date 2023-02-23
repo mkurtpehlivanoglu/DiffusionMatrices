@@ -1,0 +1,414 @@
+12 12
+1 0 0 0 1 0 0 1 0 0 0 1
+0 1 0 1 0 1 1 0 1 1 0 0
+0 0 1 1 0 0 1 0 0 0 1 1
+0 1 1 1 0 0 0 1 0 1 1 1
+0 0 1 0 1 0 1 0 1 0 1 1
+1 1 1 0 0 1 1 0 0 1 1 0
+1 1 1 0 0 1 1 0 0 1 1 1
+0 1 1 1 0 0 0 1 0 0 1 1
+1 1 0 0 1 1 0 0 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0
+1 0 1 1 0 1 0 1 0 0 1 0
+1 0 0 1 0 0 0 0 1 0 0 1
+
+***********
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x00 + x11 + x04 + x07
+y09 = x09 + x04 + x06 + x01
+y11 = x00 + x03 + x11 + x08
+t03 = x10 + x02 + x00 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x10 + x11 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x07 + x11 + x04 + x00
+y11 = x11 + x03 + x00 + x08
+y09 = x04 + x06 + x01 + x09
+t03 = x02 + x06 + x10 + x00
+y04 = x07 + x08 + y00 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x11 + x10 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x11 + x04 + x07 + x00
+y09 = x09 + x06 + x04 + x01
+y11 = x11 + x03 + x08 + x00
+t03 = x10 + x06 + x02 + x00
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x11 + x10 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x07 + x04 + x00 + x11
+y11 = x08 + x03 + x00 + x11
+y09 = x01 + x04 + x09 + x06
+t03 = x02 + x00 + x10 + x06
+y04 = x08 + x07 + y00 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x11 + x10 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x11 + x04 + x07 + x00
+y11 = x11 + x03 + x08 + x00
+y09 = x09 + x06 + x04 + x01
+t03 = x10 + x06 + x02 + x00
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x11 + x10 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x07 + x00 + x11 + x04
+y11 = x03 + x00 + x11 + x08
+y09 = x01 + x06 + x09 + x04
+t03 = x06 + x02 + x00 + x10
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x04 + x00 + x11 + x07
+y09 = x04 + x01 + x09 + x06
+y11 = x03 + x00 + x08 + x11
+t03 = x00 + x02 + x10 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x04 + x00 + x11 + x07
+y11 = x03 + x00 + x08 + x11
+y09 = x04 + x01 + x09 + x06
+t03 = x00 + x02 + x10 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x04 + x11 + x07 + x00
+y11 = x08 + x11 + x03 + x00
+y09 = x06 + x04 + x01 + x09
+t03 = x06 + x10 + x02 + x00
+y04 = x04 + x03 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x00 + x11 + x04 + x07
+y09 = x09 + x04 + x06 + x01
+y11 = x00 + x03 + x11 + x08
+t03 = x10 + x02 + x00 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x10 + x11 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x07 + x11 + x04 + x00
+y11 = x11 + x03 + x00 + x08
+y09 = x04 + x06 + x01 + x09
+t03 = x02 + x06 + x10 + x00
+y04 = x07 + x08 + y00 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x11 + x10 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x11 + x04 + x07 + x00
+y09 = x09 + x06 + x04 + x01
+y11 = x11 + x03 + x08 + x00
+t03 = x10 + x06 + x02 + x00
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x11 + x10 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x07 + x04 + x00 + x11
+y11 = x08 + x03 + x00 + x11
+y09 = x01 + x04 + x09 + x06
+t03 = x02 + x00 + x10 + x06
+y04 = x08 + x07 + y00 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x11 + x10 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x11 + x04 + x07 + x00
+y11 = x11 + x03 + x08 + x00
+y09 = x09 + x06 + x04 + x01
+t03 = x10 + x06 + x02 + x00
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x11 + x10 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x07 + x00 + x11 + x04
+y11 = x03 + x00 + x11 + x08
+y09 = x01 + x06 + x09 + x04
+t03 = x06 + x02 + x00 + x10
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x04 + x00 + x11 + x07
+y09 = x04 + x01 + x09 + x06
+y11 = x03 + x00 + x08 + x11
+t03 = x00 + x02 + x10 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x04 + x00 + x11 + x07
+y11 = x03 + x00 + x08 + x11
+y09 = x04 + x01 + x09 + x06
+t03 = x00 + x02 + x10 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x04 + x11 + x07 + x00
+y11 = x08 + x11 + x03 + x00
+y09 = x06 + x04 + x01 + x09
+t03 = x06 + x10 + x02 + x00
+y04 = x04 + x03 + y11 + t03
+y05 = x05 + x01 + x09 + t03
+y08 = x10 + x11 + y04 + y05
+y06 = x11 + y05
+y03 = x03 + y00 + y09 + t03
+y07 = x09 + y03
+y02 = x08 + y11 + t03
+y10 = x03 + y05 + y03 + y02
+y01 = x05 + y09 + y04 + y02
+
+----------------
+SLP Heuristic XorCount: 13, Depth: 3
+, XOR2: 2, XOR3: 1, XOR4: 10
+SLP Heuristic XorCost ASIC1: 57.25
+SLP Heuristic XorCost ASIC2: 62.677
+SLP Heuristic XorCost ASIC3: 71.7
+SLP Heuristic XorCost ASIC4: 71.22
+y00 = x00 + x11 + x04 + x07
+y09 = x09 + x04 + x06 + x01
+y11 = x00 + x03 + x11 + x08
+t03 = x10 + x02 + x00 + x06
+y04 = x03 + x04 + y11 + t03
+y05 = x05 + x09 + x01 + t03
+y08 = x10 + x11 + y04 + y05
+y02 = x08 + y11 + t03
+y01 = x05 + y09 + y04 + y02
+y03 = x03 + y00 + y09 + t03
+y10 = x03 + y05 + y02 + y03
+y06 = x11 + y05
+y07 = x09 + y03
+
+----------------
